@@ -39,7 +39,7 @@ export async function GET(req: NextRequest) {
         return factory.createTransactionForNativeTokenTransfer({
             sender,
             receiver,
-            nativeAmount: 5_000_000_000_000_000n,
+            nativeAmount: 50_000_000_000_000_000_000n,
         });
     });
 
