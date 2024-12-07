@@ -1,7 +1,3 @@
-Here’s the README for your package, **`@challenges/shard-address`**:
-
----
-
 # **@challenges/shard-address**
 
 A CLI tool for generating shard-aware blockchain addresses and automating faucet requests on the **MultiversX Devnet network**. This package simplifies the process of creating accounts across all shards and requesting test tokens for them, providing developers with an efficient solution for blockchain testing.
