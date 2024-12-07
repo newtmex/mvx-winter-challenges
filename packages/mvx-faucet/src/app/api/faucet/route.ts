@@ -50,8 +50,6 @@ export async function GET(req: NextRequest) {
     const computer = new TransactionComputer();
 
     for (const tx of txs) {
-        senderAcccount.incrementNonce();
-
         tx.nonce = BigInt(senderAcccount.nonce.valueOf());
         // Must be last
         tx.signature = faucetSigner.sign(computer.computeBytesForSigning(tx));
@@ -59,6 +57,8 @@ export async function GET(req: NextRequest) {
         const hash = await apiProvider.sendTransaction(tx);
 
         txHashes.push({ hash, address: tx.receiver });
+
+        senderAcccount.incrementNonce();
     }
 
     return NextResponse.json({ txHashes });
