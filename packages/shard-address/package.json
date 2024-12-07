@@ -1,6 +1,6 @@
 {
     "name": "@challenges/shard-address",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "description": "This project addresses the first challenge of the MultiversX Winter Coding Challenge by creating a fully functional CLI tool that simplifies the process of generating blockchain accounts across all shards and automating token requests from the faucet. The tool is designed to streamline development workflows for the MultiversX ecosystem, enabling developers to quickly create and fund accounts for testing and prototyping purposes.",
     "author": "Levi Chimezie",
     "license": "MIT",
