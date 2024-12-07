@@ -2,7 +2,7 @@
     "name": "challenges",
     "version": "0.0.1",
     "description": "This Yarn workspace is designed to streamline the development and management of CLI tools and libraries for the MultiversX Winter Coding Challenge. The workspace provides a structured environment for building, testing, and publishing packages to npm, enabling developers to contribute innovative solutions to the ecosystem efficiently. With this workspace, participants can create reusable modules or CLI tools that simplify interactions with the MultiversX blockchain, automate development tasks, and encourage community-wide collaboration.",
-    "repository": "https://github.com/newtmex/mvx-winter-challenge",
+    "repository": "https://github.com/newtmex/mvx-winter-challenges",
     "author": "Levi Chimezie",
     "license": "MIT",
     "private": true,
